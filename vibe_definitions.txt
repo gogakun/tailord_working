@@ -1,0 +1,148 @@
+coachella: Bohemian festival energy with crochet, denim, and desert-ready layers in sun-faded hues.
+goth core: Moody black palettes, lace and leather textures, shaped by goth and alternative club culture.
+goth barbie: Playful clash of goth darkness with Barbie pink excess, equal parts spooky and glam.
+sweater weather: Cozy knitwear layers in autumn tones, nostalgic for crisp seasonal days.
+90s: Vintage minimalism with oversized cuts and references from grunge to preppy pop culture.
+70s: Retro glamour of the disco and hippie decades, flared cuts and earthy palettes.
+80s: Bold, maximalist vibe with neon colors, power dressing, and glam-metal undertones.
+cbgb punk rock: Raw rebellion with distressed denim, leather jackets, and CBGB-era attitude.
+artist: Relaxed, eclectic layering with paint-splattered charm and creative flair.
+painter: Functional workwear influence with smocks, rugged fabrics, and colorful stains.
+slutty: Provocative aesthetic leaning into revealing cuts and unapologetic confidence.
+purr: Flirty, feline-coded styling with sleek silhouettes and playful edge.
+beach bum: Carefree surf-inspired dressing with sun-faded colors and relaxed fits.
+eastern european: Gritty, track-suit heavy aesthetic referencing post-Soviet streetwear.
+pirate core: Nautical romance with flowing shirts, boots, and adventurous details.
+balkan rage: High-energy nightlife aesthetic mixing Eastern European streetwear with rave spirit.
+rave: Electric colors, reflective fabrics, and functional pieces made for all-night dancing.
+soccer star: Sport-driven aesthetic with jerseys, shorts, and street-athlete confidence.
+midnight in paris: Quiet evening elegance with draped tailoring and knitwear in neutral palettes.
+vamp core: Gothic sensuality with rich blacks, lace, and vampiric mystique.
+brat: Hyper-feminine attitude with flashy colors, cheeky slogans, and rebellious charm.
+barbie: Plastic-fantastic pink glamour referencing the doll’s iconic outfits.
+harajuku girl: Maximalist layering and eccentric accessories inspired by Tokyo’s Harajuku district.
+emo: Emotive punk-leaning aesthetic with dark eyeliner, band tees, and skinny fits.
+tokyo chic: Sleek monochrome precision with minimalist tailoring and sharp layering.
+thrifted: Mix of second-hand treasures with DIY creativity and eclectic combinations.
+distressed: Frayed, ripped, and worn-in textures for a grunge-inflected casual look.
+luxury: High-end aesthetic marked by fine fabrics, tailoring, and understated branding.
+casual: Relaxed everyday dressing with comfort-first cuts and neutral staples.
+a$ap rocky: Fashion-forward hip-hop aesthetic mixing luxury streetwear with eclectic references.
+military core: Utility-driven dressing with camo, fatigues, and tactical-inspired details.
+core: Catch-all suffix for niche subcultural aesthetics defined by shared tags.
+punk rock: DIY rebellion with studs, leather, and anti-establishment graphics.
+grunge: 90s alternative look of plaid, ripped denim, and moody nonchalance.
+classic rock: Retro band tees, denim, and leather referencing rock’s golden era.
+cute: Playful, charming vibe with pastels, soft textures, and youthful silhouettes.
+trendy: Fast-moving, fashion-conscious styling that mirrors current online culture.
+night out: Party-ready glamour with bold cuts, shimmering fabrics, and confidence.
+metal concert: Heavy black attire with leather and spikes fit for loud venues.
+rock concert: Relaxed music fan look with tees, jeans, and nods to rock subculture.
+halloween: Playful costumes and gothic-leaning seasonal theatrics.
+everyday: Functional, simple staples built for routine and casual comfort.
+eurotrash: Flashy, hedonistic nightlife aesthetic with tight fits and loud branding.
+skater: Streetwear rooted in skate culture—loose jeans, graphic tees, and sneakers.
+roller skater: Retro disco-inspired vibe with shorts, socks, and wheels as the accessory.
+college party: Casual nightlife look of tees, jeans, and collegiate signifiers.
+frat party: Preppy-meets-rowdy aesthetic with polos, shorts, and Americana cues.
+indie: Alternative music-inspired fashion with vintage thrift and lo-fi charm.
+disco: Studio 54 glam with sequins, shiny fabrics, and nightlife sparkle.
+indie sleeze: Messy, gritty 2000s aesthetic—skinny jeans, smudged eyeliner, and nightlife chaos.
+bohemian: Free-spirited layering of flowy fabrics, ethnic prints, and earthy palettes.
+vintage: Retro-inspired wardrobe drawing from past decades with nostalgic silhouettes.
+groupie: Rock-adjacent sensuality—tight fits, band merch, and backstage allure.
+film maker: Functional, artsy neutrals with workwear touches and cinematic ease.
+opium-coded: Dark, minimalist streetwear fused with hip-hop edge and underground allure.
+blokette: Mix of blokecore sportswear with ballet-inspired femininity popular online.
+quiet luxury: Understated affluence with fine tailoring, muted tones, and discreet branding.
+clean fit: Minimalist precision with crisp shapes and tidy proportions.
+gorpcore: Outdoor gear recontextualized as streetwear with technical fabrics.
+coastal grandma: Relaxed seaside chic with breezy linens and vintage comfort.
+y2k: Playful early‑2000s energy—shiny finishes, baby hues, and cropped proportions shaped by internet nostalgia.
+techwear: Futurist utility with modular details, dark palettes, and urban readiness.
+fairycore: Romantic ethereal fantasy of lace, mesh, and pastel tones.
+mermaidcore: Shimmering aquatic vibe with iridescent fabrics and oceanic hues.
+angelcore: Heavenly whites, delicate lace, and ethereal silhouettes with purity undertones.
+weird girl: Eccentric layering with ironic prints and DIY spirit embraced online.
+downtown girl: City-casual chic mixing vintage finds with streetwise polish.
+balletcore: Delicate tutus, wrap tops, and ballet slippers reimagined for daily wear.
+clowncore: Chaotic, playful maximalism with oversized silhouettes and circus motifs.
+mob wife: Opulent fur, gold accents, and dramatic makeup channeling 80s/90s mob films.
+rat girl summer: Carefree, intentionally messy summer look with tanks, shorts, and sly humor.
+tomato girl: Mediterranean summer charm with linen dresses, red accents, and headscarves.
+vanilla girl: Soft neutrals, cozy textures, and effortless clean-girl minimalism.
+clean girl: Glossy skin, slick hair, and elevated basics embodying TikTok minimalism.
+coquette: Flirty romance with lace trims, bows, and hyper-feminine detailing.
+cottagecore: Idyllic rural nostalgia with prairie dresses and pastoral softness.
+dark academia: Scholarly mood with tweed, blazers, and gothic intellectual palettes.
+light academia: Airy, bookish aesthetic with creams, beiges, and classic tailoring.
+scandi minimalism: Nordic precision with muted tones, clean lines, and sustainable ethos.
+french girl: Effortless chic with striped tops, red lips, and timeless Parisian staples.
+old money: Traditional upper-class style with muted tones, tailoring, and restraint.
+new money flash: Showy extravagance with logos, sparkle, and bold displays of wealth.
+hip hop luxury: High-end streetwear fused with rap culture and luxury brands.
+drillcore: London drill-influenced look of puffers, trackies, and balaclavas.
+soundcloud rap: DIY hip-hop fashion with thrifted fits and eccentric styling.
+trapstar: UK grime-adjacent streetwear brand turned aesthetic shorthand.
+jersey club fit: Club-ready streetwear with bold prints and nightlife swagger.
+metalhead: Black leather, band tees, and long hair codes tied to heavy metal.
+hardcore punk: Aggressive stripped-down DIY aesthetic from punk’s loudest subgenre.
+emo revival: Modern resurgence of emo silhouettes, band merch, and heartfelt angst.
+shoegaze haze: Dreamy lo-fi vibe with oversized knits and blurred color palettes.
+festival rave: Colorful, glitter-heavy festival fits built for dance marathons.
+berghain techno: Industrial black-on-black, utilitarian layers rooted in Berlin’s club scene.
+house party dj: Casual cool of vinyl-spinning nightlife figures with eclectic layering.
+grunge revival: Contemporary reimagining of 90s grunge with updated silhouettes.
+post-punk: Dark, angular tailoring with stark monochrome palettes.
+britpop 90s: Retro 1990s Britpop swagger with polos, denim, and mod references.
+indie folk boho: Acoustic-driven bohemian fashion with earthy tones and loose knits.
+mediterranean summer: Breezy linens, warm hues, and seaside elegance of Southern Europe.
+nyc downtown: Art-world edge with thrifted black layers and gallery-ready polish.
+brooklyn indie sleeze: Hipster-chaotic energy of 2000s Brooklyn with messy glam rock hints.
+soho house core: Exclusive casual luxury marked by understated branding and curated taste.
+midwest thrift: Second-hand, regional Americana influence with DIY styling.
+texas rodeo: Western spectacle with denim, boots, and rodeo flair.
+cowboy core: Americana western vibe with denim staples, hats, and rugged boots.
+western goth: Cowboy meets goth—black denim, boots, and desert noir aesthetics.
+moscow chic: Eastern European glam with furs, leathers, and bold luxury cues.
+paris left bank: Intellectual Parisian chic with black turtlenecks and bookish edge.
+berlin club kid: Avant-garde nightlife fashion with leather, mesh, and fearless silhouettes.
+surf bum: Relaxed surfwear of board shorts, tanks, and salt-faded textures.
+snow bunny: Apres-ski glam with furs, boots, and alpine color pops.
+après-ski: Mountain resort leisurewear with chunky knits and ski lodge polish.
+hiking gorpcore: Functional outdoor gear with trekking details and weatherproof layers.
+back to school: Preppy staples like polos, pleats, and backpacks for collegiate vibe.
+holiday sparkle: Festive glam with sequins, metallics, and party-ready shimmer.
+winter layering: Functional, cozy stacks of knits, coats, and accessories for cold weather.
+cozy cabin: Rustic leisurewear with plaid, knits, and fireside comfort.
+valentine’s date: Romantic reds, delicate lace, and date-night polish.
+festival season: Maximalist dressing with fringe, crochet, and all-day music comfort.
+spring picnic: Pastel sundresses, gingham, and playful outdoor styling.
+hot girl summer: Confident, body-positive warm-weather looks for nightlife and beach alike.
+wedding guest: Semi-formal elegance balancing celebration and subtlety.
+black tie optional: Formal tailoring softened by flexibility in eveningwear codes.
+award show red carpet: Ultra-glamorous spectacle with couture gowns and bold suits.
+vampire chic: Dramatic gothic elegance with rich velvets, lace, and haunting beauty.
+witchy: Mystical black layers, crystals, and occult-adjacent accessories.
+pirate luxe: Glamorous nautical fantasy with rich fabrics and gold accents.
+cowgirl barbie: Pink western fantasy with denim, fringe, and rodeo-meets-doll play.
+schoolgirl: Plaid skirts, blazers, and youthful collegiate cues.
+skater boy: Casual skate culture fits with graphic tees and sneakers.
+stoner chic: Laid-back casual with tie-dye, hoodies, and counterculture humor.
+art student: Eclectic layering of thrift, paint stains, and artsy accessories.
+film bro: Dark denim, vintage tees, and ironic cinephile minimalism.
+gallery girl: Fashion-forward black ensembles with gallery-opening polish.
+it girl: Trendsetting glamour with social media awareness and brand mix.
+socialite: Elite party aesthetic marked by couture, champagne, and exclusive venues.
+hustler: Flashy, ambitious looks emphasizing logos and power dressing.
+tech bro: Normcore Silicon Valley staples—hoodies, sneakers, and start-up casual.
+finance bro suit: Sharp tailoring as uniform for Wall Street archetypes.
+goblin mode: Intentionally messy anti-style with comfort above all else.
+feral girl: Chaotic carefree energy expressed through unkempt playful dressing.
+office siren: Alluring office attire with sharp tailoring and seductive undertones.
+doomscroll chic: Bleakly ironic aesthetic of sweats, screens, and nihilism.
+npc fit: Basic unremarkable attire styled to blend in intentionally.
+ai-core: Futurist glitch aesthetic influenced by digital culture and generative art.
+matrix reload: Slick black leather, trench coats, and cyber-dystopian allure.
+cyberpunk: High-tech low-life fashion with neon, techwear, and dystopian vibes.
+metaverse cosplay: Virtual-inspired styling mixing gamer fits with surrealist fantasy.

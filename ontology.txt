@@ -1,0 +1,1051 @@
+This is a glossary for TAI — embeddable chat-bot asssistant that's capable of both navigating a website, i.e., searching 
+through its products and knowing whereabouts, and keeping up a meaningful conversation with the customer, whether it be
+customer support, product recommendation, or a conversation about pop culture/related to the products topics. 
+
+Ontology:
+{
+  "vibes": [
+  "coachella", "goth core", "goth barbie", "sweater weather", "90s", "70s", "80s", 
+  "cbgb punk rock", "artist", "painter", "slutty", "purr", "beach bum", "eastern european", 
+  "pirate core", "balkan rage", "rave", "soccer star", "midnight in paris", "vamp core", 
+  "brat", "barbie", "harajuku girl", "emo", "tokyo chic", "thrifted", "distressed", 
+  "luxury", "casual", "a$ap rocky", "military core", "core", "punk rock", "grunge", 
+  "classic rock", "cute", "trendy", "night out", "metal concert", "rock concert", 
+  "halloween", "everyday", "eurotrash", "skater", "roller skater", "college party", 
+  "frat party", "indie", "disco", "indie sleeze", "bohemian", "vintage", "groupie", 
+  "film maker", "opium-coded","blokette","quiet luxury","clean fit","gorpcore",
+  "coastal grandma","y2k","techwear",
+
+  // --- Added aesthetics below ---
+  "fairycore","mermaidcore","angelcore","weird girl","downtown girl","balletcore","clowncore",
+  "mob wife","rat girl summer","tomato girl","vanilla girl","clean girl","coquette",
+  "cottagecore","dark academia","light academia","scandi minimalism","french girl",
+  "old money","new money flash",
+
+  "hip hop luxury","drillcore","soundcloud rap","trapstar","jersey club fit","metalhead",
+  "hardcore punk","emo revival","shoegaze haze","festival rave","berghain techno",
+  "house party dj","grunge revival","post-punk","britpop 90s","indie folk boho",
+
+  "mediterranean summer","nyc downtown","brooklyn indie sleeze","soho house core",
+  "midwest thrift","texas rodeo","cowboy core","western goth","moscow chic","paris left bank",
+  "berlin club kid","surf bum","snow bunny","après-ski","hiking gorpcore",
+
+  "back to school","holiday sparkle","winter layering","cozy cabin","valentine’s date",
+  "festival season","spring picnic","hot girl summer","wedding guest","black tie optional",
+  "award show red carpet",
+
+  "vampire chic","witchy","pirate luxe","cowgirl barbie","schoolgirl","skater boy",
+  "stoner chic","art student","film bro","gallery girl","it girl","socialite","hustler",
+  "tech bro","finance bro suit",
+
+  "goblin mode","feral girl","office siren","doomscroll chic","npc fit","ai-core",
+  "matrix reload","cyberpunk","metaverse cosplay"
+]
+
+
+  "items": 
+
+  ["hoodie", "t-shirt", "thermal", "sweater", "vest", "button-up", "babydoll top", "baby tee", "halter top",
+  "baggy jeans","cargo pants","mini skirt","cropped tee","combat boots","trench coat","puffer jacket", "jerseys", "tank tops", "laced tops", "corsets"],
+
+  "cuts": 
+
+  ["cropped", "ribbed", "pleated", "form-fitting", "fitted", "stretchy", "strapless", "tube", "babydoll", "halter", "draped", "backless"],
+
+  "materials": 
+
+  ["denim","leather","cotton","wool","nylon","mesh", "acrylic", "cashmere", "lace", "sequin", "metallic"],
+
+  "colors": 
+
+  ["black","blue","white","yellow","green","red", "cream", "grey", "silver", "burgundy", "hot pink", "baby pink", "baby blue", "navy", "green", "y2k green",
+  "orange", "purple", "tan", "beige", "gold", "camel", "ivory"],
+
+  "details":
+
+  ["buckle","studs","distressed","lace","grommet","zipper"],
+
+  "price_band": 
+  
+  ["budget","mid","premium"],
+
+  "occasion": 
+
+  ["night out","festival","date","streetwear", "music festival", "bar hop", "dinner", "everyday", "picnic", "brunch", "casual", "comfortable"],
+  "college party", "party", "halloween party", "halloween", "christmas", "skateboarding", "beach wear", "surfing", "walk", "coffee", "museum", "movies",
+  "wine night", "amusement park", "road trip", "backpacking europe", "backpacking", "camping", "frat party", "indie festival", "dive bar", "sports bar",
+  "jazz bar", 
+
+  "season": 
+  
+  ["spring","summer","fall","winter"]
+}
+
+Curation:
+Batch1
+{
+  "vibe": "coachella women",
+  "items": ["halter top","mini skirt","cargo pants", "jeans", "jacket", "vest"],
+  "cuts": ["cropped","halter","pleated"],
+  "materials": ["denim","cotton","lace","mesh"],
+  "colors": ["tan","beige","cream","baby blue"],
+  "details": ["distressed","buckle"],
+  "price_band": "mid",
+  "occasion": "festival",
+  "season": "summer",
+  "negatives": ["black","charcoal"]
+}
+
+{
+  "vibe": "coachella men",
+  "items": ["tank top", "jeans", "button up", "vest", "cargo pants", "vest"],
+  "cuts": ["ripped", "draped", "oversized", "fitted","pleated"],
+  "materials": ["denim","cotton","lace","mesh"],
+  "colors": ["tan","beige","cream","baby blue"],
+  "details": ["distressed","buckle"],
+  "price_band": "mid",
+  "occasion": "festival",
+  "season": "summer",
+  "negatives": ["black","charcoal"]
+}
+
+{
+  "vibe": "goth core",
+  "items": ["corsets","mini skirt","sweater", "t-shirt", "cropped tee", "tank tops"],
+  "cuts": ["form-fitting","cropped", "ripped", "distressed"],
+  "materials": ["leather","lace","denim"],
+  "colors": ["black","burgundy","silver"],
+  "details": ["studs","zipper","lace"],
+  "price_band": "budget",
+  "occasion": "night out",
+  "season": "fall",
+  "negatives": ["blue", "navy", "cream","baby pink"]
+}
+
+{
+  "vibe": "goth barbie",
+  "items": ["mini skirt","corsets","babydoll top"],
+  "cuts": ["form-fitting","babydoll","strapless"],
+  "materials": ["leather","lace","cotton"],
+  "colors": ["black","hot pink","baby pink"],
+  "details": ["lace","studs","zipper"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["tan","camel"]
+}
+
+{
+  "vibe": "sweater weather",
+  "items": ["sweater","thermal","baggy jeans"],
+  "cuts": ["ribbed","oversized", "pleated"],
+  "materials": ["wool","cotton","denim"],
+  "colors": ["cream","grey","navy","burgundy"],
+  "details": ["distressed"],
+  "price_band": "mid",
+  "occasion": "casual",
+  "season": "fall",
+  "negatives": ["hot pink","sequin"]
+}
+
+{
+  "vibe": "90s",
+  "items": ["baggy jeans","cropped tee","hoodie"],
+  "cuts": ["cropped","ribbed","fitted", "draped"],
+  "materials": ["denim","cotton","nylon"],
+  "colors": ["black","blue","white","red"],
+  "details": ["distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "everyday",
+  "season": "spring",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "80s",
+  "items": ["puffer jacket","halter top","mini skirt","corsets", "jeans"],
+  "cuts": ["form-fitting","cropped","strapless", "pleated", "draped"],
+  "materials": ["metallic","cotton","denim"],
+  "colors": ["purple","hot pink","blue","gold"],
+  "details": ["zipper","grommet"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "winter",
+  "negatives": ["beige","camel"]
+}
+
+{
+  "vibe": "70s",
+  "items": ["halter top","mini skirt","trench coat","tank tops", "jeans"],
+  "cuts": ["halter","pleated","tube"],
+  "materials": ["cotton","denim","sequin", "leather", "cashmere", "nylon"],
+  "colors": ["orange","yellow","brown","gold"],
+  "details": ["lace"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["black","silver"]
+}
+
+{
+  "vibe": "cbgb punk rock",
+  "items": ["t-shirt","jeans","hoodie", "jacket", "vest"],
+  "cuts": ["cropped","ribbed"],
+  "materials": ["denim","leather","cotton"],
+  "colors": ["black","grey","red"],
+  "details": ["studs","distressed","zipper", "grommet"],
+  "price_band": "budget",
+  "occasion": "music festival",
+  "season": "fall",
+  "negatives": ["cream","baby pink"]
+}
+
+{
+  "vibe": "artist",
+  "items": ["button-up","cargo pants","sweater","combat boots", "vest"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["cotton","wool","denim"],
+  "colors": ["cream","tan","blue","navy"],
+  "details": ["grommet", ],
+  "price_band": "mid",
+  "occasion": "museum",
+  "season": "spring",
+  "negatives": ["hot pink","gold"]
+}
+
+{
+  "vibe": "painter",
+  "items": ["thermal","hoodie","baggy jeans","sweater"],
+  "cuts": ["oversized","cropped"],
+  "materials": ["cotton","denim","acrylic"],
+  "colors": ["cream","beige","blue","green"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "casual",
+  "season": "fall",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "slutty",
+  "items": ["mini skirt","babydoll top","halter top","corsets"],
+  "cuts": ["form-fitting","cropped","backless"],
+  "materials": ["lace","mesh","cotton"],
+  "colors": ["black","hot pink","baby pink","red"],
+  "details": ["lace","zipper"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["camel","navy"]
+}
+
+{
+  "vibe": "purr",
+  "items": ["corsets","mini skirt","halter top","cropped tee"],
+  "cuts": ["form-fitting","strapless","cropped"],
+  "materials": ["mesh","cotton","lace"],
+  "colors": ["black","baby pink","red","burgundy"],
+  "details": ["lace"],
+  "price_band": "mid",
+  "occasion": "night out",
+  "season": "summer",
+  "negatives": ["cream","camel"]
+}
+
+{
+  "vibe": "beach bum",
+  "items": ["tank tops","mini skirt","cropped tee","baggy jeans"],
+  "cuts": ["cropped","stretchy"],
+  "materials": ["cotton","denim","nylon"],
+  "colors": ["baby blue","white","cream","orange"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "beach wear",
+  "season": "summer",
+  "negatives": ["black","burgundy"]
+}
+
+{
+  "vibe": "eastern european",
+  "items": ["hoodie","puffer jacket","cargo pants", "tank top", "jeans", "coat"],
+  "cuts": ["oversized","ribbed"],
+  "materials": ["nylon","cotton","denim"],
+  "colors": ["black","grey","navy","burgundy"],
+  "details": ["zipper","buckle"],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "winter",
+  "negatives": ["baby pink","cream"]
+}
+
+{
+  "vibe": "pirate core",
+  "items": ["button-up","corsets","mini skirt","combat boots"],
+  "cuts": ["draped","form-fitting","backless"],
+  "materials": ["cotton","leather","lace"],
+  "colors": ["black","red","burgundy","gold"],
+  "details": ["buckle","lace"],
+  "price_band": "mid",
+  "occasion": "halloween party",
+  "season": "fall",
+  "negatives": ["baby pink","navy"]
+}
+
+Batch2
+{
+  "vibe": "balkan rage",
+  "items": ["puffer jacket","cargo pants", "jeans", "tank top", "vest", "button up"],
+  "cuts": ["oversized","ribbed"],
+  "materials": ["nylon","cotton","denim"],
+  "colors": ["black","burgundy","red","grey"],
+  "details": ["zipper","buckle"],
+  "price_band": "budget",
+  "occasion": "party",
+  "season": "winter",
+  "negatives": ["cream","baby pink"]
+}
+
+{
+  "vibe": "rave",
+  "items": ["halter top","mini skirt","tank tops", "t-shirt", "vest", "jeans"],
+  "cuts": ["cropped","stretchy","form-fitting"],
+  "materials": ["mesh","nylon","sequin"],
+  "colors": ["hot pink","baby blue","green","silver"],
+  "details": ["grommet","zipper"],
+  "price_band": "budget",
+  "occasion": "music festival",
+  "season": "summer",
+  "negatives": ["camel","beige"]
+}
+
+{
+  "vibe": "soccer star",
+  "items": ["button up", "jeans", "tank top", "vest", "hoodie", "sweater",],
+  "cuts": ["oversized","ribbed", "draped", "fitted"],
+  "materials": ["cotton","nylon", "denim", "cashmere"],
+  "colors": ["blue","green","white","navy", "black"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "spring",
+  "negatives": ["lace","sequin"]
+}
+
+{
+  "vibe": "midnight in paris",
+  "items": ["button-up","trench coat","mini skirt", "sweater"],
+  "cuts": ["fitted","draped"],
+  "materials": ["cotton","wool","cashmere",]
+  "colors": ["cream","camel","navy","ivory"],
+  "details": [],
+  "price_band": "premium",
+  "occasion": "dinner",
+  "season": "fall",
+  "negatives": ["hot pink","sequin"]
+}
+
+{
+  "vibe": "vamp core",
+  "items": ["corsets","mini skirt","combat boots","laced tops"],
+  "cuts": ["form-fitting","backless"],
+  "materials": ["leather","lace","cotton"],
+  "colors": ["black","burgundy","red","silver"],
+  "details": ["lace","studs"],
+  "price_band": "mid",
+  "occasion": "night out",
+  "season": "fall",
+  "negatives": ["cream","camel"]
+}
+
+{
+  "vibe": "brat",
+  "items": ["mini skirt","baby tee","cropped tee","corsets", "jacket"],
+  "cuts": ["cropped","form-fitting"],
+  "materials": ["cotton","denim","lace", "leather"],
+  "colors": ["baby pink","baby blue","white","hot pink", "green"],
+  "details": ["lace"],
+  "price_band": "budget",
+  "occasion": "college party",
+  "season": "spring",
+  "negatives": ["camel","burgundy"]
+}
+
+{
+  "vibe": "barbie",
+  "items": ["mini skirt","halter top","babydoll top"],
+  "cuts": ["cropped","babydoll","form-fitting"],
+  "materials": ["cotton","lace","mesh"],
+  "colors": ["baby pink","hot pink","cream"],
+  "details": ["lace","zipper"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["navy","camel"]
+}
+
+{
+  "vibe": "harajuku girl",
+  "items": ["mini skirt","cropped tee","corsets","combat boots"],
+  "cuts": ["cropped","pleated","fitted"],
+  "materials": ["denim","lace","mesh", "sequin"],
+  "colors": ["baby pink","red","black","baby blue"],
+  "details": ["lace","zipper"],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "spring",
+  "negatives": ["camel","ivory"]
+}
+
+{
+  "vibe": "emo",
+  "items": ["hoodie","cargo pants", "jeans", "t-shirt", "babydoll top", "tank top", "sweater"],
+  "cuts": ["cropped","ribbed","fitted"],
+  "materials": ["denim","cotton","mesh", "leather", "wool"],
+  "colors": ["black","red","burgundy","navy"],
+  "details": ["studs","distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "music festival",
+  "season": "fall",
+  "negatives": ["baby pink","cream"]
+}
+
+{
+  "vibe": "tokyo chic",
+  "items": ["trench coat","cropped tee","mini skirt"],
+  "cuts": ["cropped","form-fitting","oversized"],
+  "materials": ["cotton","nylon","leather"],
+  "colors": ["black","cream","navy","silver"],
+  "details": ["zipper"],
+  "price_band": "premium",
+  "occasion": "night out",
+  "season": "fall",
+  "negatives": ["baby pink","gold"]
+}
+
+{
+  "vibe": "thrifted",
+  "items": ["sweater","baggy jeans","button-up","cargo pants", "jacket"],
+  "cuts": ["oversized","ribbed","cropped"],
+  "materials": ["cotton","denim","wool", "leather"],
+  "colors": ["navy","cream","tan","blue"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "casual",
+  "season": "fall",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "distressed",
+  "items": ["baggy jeans","cropped tee","hoodie","combat boots"],
+  "cuts": ["cropped","oversized"],
+  "materials": ["denim","cotton","mesh"],
+  "colors": ["black","blue","grey","cream"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "spring",
+  "negatives": ["gold","baby pink"]
+}
+
+{
+  "vibe": "luxury",
+  "items": ["trench coat","button-up","mini skirt", "sweater"],
+  "cuts": ["fitted","oversized", "draped"],
+  "materials": ["wool","leather", "cashmere"],
+  "colors": ["cream","camel","ivory","black", "white, "silver", "gold"],
+  "details": [],
+  "price_band": "premium",
+  "occasion": "dinner",
+  "season": "fall",
+  "negatives": ["distressed","studs"]
+}
+
+{
+  "vibe": "casual",
+  "items": ["hoodie","t-shirt","baggy jeans"],
+  "cuts": ["oversized","ribbed"],
+  "materials": ["cotton","denim"],
+  "colors": ["blue","white","grey","navy"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "everyday",
+  "season": "spring",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "a$ap rocky",
+  "items": ["hoodie","cargo pants","puffer jacket","vest", "button up", "t-shirt", "jacket", "sweater"],
+  "cuts": ["oversized","cropped"],
+  "materials": ["denim","nylon","cotton", "leather", "cashmere"],
+  "colors": ["black","cream","green","navy"],
+  "details": ["zipper","buckle"],
+  "price_band": "mid",
+  "occasion": "streetwear",
+  "season": "fall",
+  "negatives": ["baby pink","lace"]
+}
+
+Batch3
+{
+  "vibe": "military core",
+  "items": ["cargo pants","puffer jacket","button-up", "vest", "jacket"],
+  "cuts": ["fitted","oversized", "pleated", "fitted"],
+  "materials": ["nylon","cotton","leather"],
+  "colors": ["green","camel","black"],
+  "details": ["buckle","zipper"],
+  "price_band": "mid",
+  "occasion": "streetwear",
+  "season": "fall",
+  "negatives": ["baby pink","sequin"]
+}
+
+{
+  "vibe": "core",
+  "items": ["hoodie","t-shirt","baggy jeans"],
+  "cuts": ["oversized","cropped"],
+  "materials": ["cotton","denim"],
+  "colors": ["black","grey","blue","cream"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "everyday",
+  "season": "spring",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "punk rock",
+  "items": ["t-shirt","cropped tee", "baggy jeans","tank top","vest","jacket", "hoodie"],
+  "cuts": ["cropped","fitted", "draped", "oversized", "baggy"],
+  "materials": ["denim","leather","cotton"],
+  "colors": ["black","red","grey","burgundy"],
+  "details": ["studs","distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "rock concert",
+  "season": "fall",
+  "negatives": ["cream","camel"]
+}
+
+{
+  "vibe": "grunge",
+  "items": ["sweater","cargo pants", "jeans", "t-shirt", "tank top", "hoodie"],
+  "cuts": ["oversized","ribbed"],
+  "materials": ["cotton","wool","denim", "cashmere"],
+  "colors": ["black","grey","blue","burgundy"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "casual",
+  "season": "fall",
+  "negatives": ["gold","baby pink"]
+}
+
+{
+  "vibe": "classic rock",
+  "items": ["t-shirt","jeans","button-up", "tank top", "cropped tee", "jacket"],
+  "cuts": ["fitted","cropped", "draped", "pleated"],
+  "materials": ["cotton","denim","leather"],
+  "colors": ["black","blue","red","white"],
+  "details": ["distressed","studs"],
+  "price_band": "mid",
+  "occasion": "rock concert",
+  "season": "summer",
+  "negatives": ["hot pink","baby pink", "green"]
+}
+
+{
+  "vibe": "cute",
+  "items": ["baby tee","mini skirt","babydoll top","corsets"],
+  "cuts": ["babydoll","cropped","form-fitting"],
+  "materials": ["cotton","lace","denim"],
+  "colors": ["baby pink","baby blue","cream","white"],
+  "details": ["lace"],
+  "price_band": "budget",
+  "occasion": "date",
+  "season": "spring",
+  "negatives": ["black","burgundy"]
+}
+
+{
+  "vibe": "trendy",
+  "items": ["cropped tee","mini skirt","baggy jeans","corsets"],
+  "cuts": ["cropped","form-fitting","ribbed"],
+  "materials": ["cotton","denim","mesh"],
+  "colors": ["hot pink","baby blue","cream","green"],
+  "details": ["zipper"],
+  "price_band": "mid",
+  "occasion": "streetwear",
+  "season": "summer",
+  "negatives": ["camel","navy"]
+}
+
+{
+  "vibe": "night out",
+  "items": ["corsets","mini skirt","halter top","combat boots", "button up", "jeans", "vest", "t-shirt"],
+  "cuts": ["form-fitting","cropped","backless", "pleated", "draped"],
+  "materials": ["leather","lace","mesh", "cotton", "cashmere"],
+  "colors": ["black","red","silver","burgundy"],
+  "details": ["zipper","lace"],
+  "price_band": "mid",
+  "occasion": "night out",
+  "season": "fall",
+  "negatives": ["cream","beige"]
+}
+
+{
+  "vibe": "metal concert",
+  "items": ["t-shirt","cargo pants","hoodie", "tank top", "vest", "jacket"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["cotton","denim","leather"],
+  "colors": ["black","grey","burgundy","red"],
+  "details": ["studs","distressed"],
+  "price_band": "budget",
+  "occasion": "music festival",
+  "season": "fall",
+  "negatives": ["baby pink","camel"]
+}
+
+{
+  "vibe": "rock concert",
+  "items": ["t-shirt","jeans","combat boots","jacket", "tank top"],
+  "cuts": ["cropped","oversized"],
+  "materials": ["cotton","denim","nylon","leather"],
+  "colors": ["black","blue","grey","red"],
+  "details": ["distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "concert",
+  "season": "winter",
+  "negatives": ["cream","gold"]
+}
+
+{
+  "vibe": "halloween",
+  "items": ["corsets","mini skirt","jeans","button-up", "t-shirt"],
+  "cuts": ["form-fitting","backless", "draped", "pleated"],
+  "materials": ["lace","leather","cotton", "nylon"],
+  "colors": ["black","red","burgundy","silver"],
+  "details": ["lace","zipper"],
+  "price_band": "budget",
+  "occasion": "halloween party",
+  "season": "fall",
+  "negatives": ["cream","navy"]
+}
+
+{
+  "vibe": "everyday",
+  "items": ["t-shirt","hoodie","baggy jeans"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["cotton","denim"],
+  "colors": ["blue","white","grey","black"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "everyday",
+  "season": "spring",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "eurotrash",
+  "items": ["puffer jacket","mini skirt","tank top", "cropped tee", "button up", "jeans", "cargo pants", "corsets"],
+  "cuts": ["form-fitting","cropped", "oversized", "draped"],
+  "materials": ["nylon","leather","cotton", "denim", "cashmere"],
+  "colors": ["black","silver","gold","white", "red", "green"],
+  "details": ["zipper","buckle"],
+  "price_band": "mid",
+  "occasion": "night out",
+  "season": "winter",
+  "negatives": ["beige","camel"]
+}
+
+{
+  "vibe": "skater",
+  "items": ["hoodie","jeans","t-shirt","button up", "tank top", "cargo pants"],
+  "cuts": ["oversized","cropped", "fitted"],
+  "materials": ["cotton","denim"],
+  "colors": ["black","blue","grey","burgundy", "yellow", "green", "red", "orange"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "skateboarding",
+  "season": "fall",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "roller skater",
+  "items": ["tank tops","mini skirt","cropped tee","sweater", "jeans"],
+  "cuts": ["cropped","ribbed","pleated"],
+  "materials": ["cotton","denim","nylon"],
+  "colors": ["baby blue","hot pink","white","cream"],
+  "details": ["lace"],
+  "price_band": "budget",
+  "occasion": "casual",
+  "season": "summer",
+  "negatives": ["black","burgundy"]
+}
+
+Batch4
+{
+  "vibe": "college party",
+  "items": ["mini skirt","cropped tee","baby tee","vest", "button up", "t-shirt", "tank top" ],
+  "cuts": ["cropped","form-fitting", "oversized", "backless", "draped"],
+  "materials": ["cotton","denim","lace", "leather"],
+  "colors": ["baby blue","baby pink","white","hot pink"],
+  "details": ["lace","zipper"],
+  "price_band": "budget",
+  "occasion": "college party",
+  "season": "spring",
+  "negatives": ["camel","burgundy"]
+}
+
+{
+  "vibe": "frat party",
+  "items": ["cropped tee","mini skirt", "jeans","tank tops","hoodie"],
+  "cuts": ["cropped","fitted"],
+  "materials": ["cotton","denim"],
+  "colors": ["baby pink","white","blue","cream"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "frat party",
+  "season": "fall",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "indie",
+  "items": ["sweater","cargo pants","jeans","jacket", "button-up","vest", "tank top", "cropped tee", "baggy jeans", "babydoll tee", "halter top", "corset"],
+  "cuts": ["ribbed","oversized", "ripped", "draped", "pleated"],
+  "materials": ["cotton","wool","denim", "leather", "cashmere"],
+  "colors": ["navy","burgundy","tan","cream", "black", "white", "green", "yellow"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "indie festival",
+  "season": "fall",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "disco",
+  "items": ["halter top","mini skirt","corsets","puffer jacket", "jeans", "button up", "vest", "tank top", "sweater"],
+  "cuts": ["form-fitting","tube","backless", "draped", "pleated", "ribbed"],
+  "materials": ["sequin","metallic","nylon", "wool", "cashmere", "leather"],
+  "colors": ["gold","silver","purple","hot pink"],
+  "details": ["zipper","grommet"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "winter",
+  "negatives": ["camel","beige"]
+}
+
+{
+  "vibe": "indie sleeze",
+  "items": ["hoodie","mini skirt","cropped tee","sweater"],
+  "cuts": ["cropped","oversized","ribbed"],
+  "materials": ["cotton","denim","nylon"],
+  "colors": ["black","grey","navy","cream"],
+  "details": ["distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "dive bar",
+  "season": "fall",
+  "negatives": ["baby pink","camel"]
+}
+
+{
+  "vibe": "bohemian",
+  "items": ["halter top","mini skirt","sweater","cargo pants", "jeans", "vest", "button up"],
+  "cuts": ["halter","pleated","draped", "ribbed"],
+  "materials": ["cotton","lace","denim"],
+  "colors": ["tan","cream","orange","green"],
+  "details": ["lace"],
+  "price_band": "mid",
+  "occasion": "festival",
+  "season": "summer",
+  "negatives": ["black","silver"]
+}
+
+{
+  "vibe": "vintage",
+  "items": ["button-up","sweater","jeans","vest", "coat", "jacket", "jersey"],
+  "cuts": ["oversized","ribbed","fitted", "pleated"],
+  "materials": ["cotton","wool","denim", "leather", "cashmere"],
+  "colors": ["cream","blue","navy","tan"],
+  "details": [],
+  "price_band": "mid",
+  "occasion": "museum",
+  "season": "spring",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "groupie",
+  "items": ["mini skirt","corsets","cropped tee", "t-shirt", "babydoll tee", "vest"],
+  "cuts": ["cropped","form-fitting","backless"],
+  "materials": ["leather","cotton","lace", "nylon"],
+  "colors": ["black","red","silver","burgundy"],
+  "details": ["lace","zipper"],
+  "price_band": "budget",
+  "occasion": "rock concert",
+  "season": "summer",
+  "negatives": ["camel","navy"]
+}
+
+{
+  "vibe": "film maker",
+  "items": ["hoodie","cargo pants","button-up","sweater", "jeans"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["cotton","denim","wool"],
+  "colors": ["black","cream","tan","navy"],
+  "details": ["distressed"],
+  "price_band": "mid",
+  "occasion": "casual",
+  "season": "fall",
+  "negatives": ["hot pink","sequin"]
+}
+
+{
+  "vibe": "opium-coded",
+  "items": ["baggy jeans","jacket","t-shirt","jeans", "hoodie", "tank top"],
+  "cuts": ["baggy","oversized", "fitted", "draped"],
+  "materials": ["denim","leather", "cotton", "mesh"],
+  "colors": ["black","charcoal","silver"],
+  "details": ["studs","zipper"],
+  "price_band": "budget",
+  "occasion": "night out",
+  "season": "fall",
+  "negatives": ["bright pastels"]
+}
+
+{
+  "vibe": "blokette",
+  "items": ["jerseys","pleated mini skirt","ballet flats","sweater"],
+  "cuts": ["pleated","cropped","fitted"],
+  "materials": ["cotton","wool","denim"],
+  "colors": ["navy","white","black","baby pink"],
+  "details": [],
+  "price_band": "mid",
+  "occasion": "streetwear",
+  "season": "spring",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "clean fit",
+  "items": ["button-up","jeans","trench coat", "jacket", "sweater"],
+  "cuts": ["fitted","straight"],
+  "materials": ["cotton","wool","leather"],
+  "colors": ["cream","navy","camel","ivory"],
+  "details": [],
+  "price_band": "premium",
+  "occasion": "dinner",
+  "season": "spring",
+  "negatives": ["sequin","hot pink"]
+}
+
+{
+  "vibe": "gorpcore",
+  "items": ["puffer jacket","cargo pants","hoodie"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["nylon","cotton","denim"],
+  "colors": ["green","black","grey","navy"],
+  "details": ["zipper","buckle"],
+  "price_band": "mid",
+  "occasion": "camping",
+  "season": "winter",
+  "negatives": ["baby pink","sequin"]
+}
+
+{
+  "vibe": "coastal grandma",
+  "items": ["sweater","button-up","trench coat", "jeans"],
+  "cuts": ["oversized","ribbed","draped"],
+  "materials": ["cotton","wool","linen"],
+  "colors": ["cream","ivory","beige","camel"],
+  "details": [],
+  "price_band": "premium",
+  "occasion": "brunch",
+  "season": "summer",
+  "negatives": ["black","hot pink"]
+}
+
+Batch5
+{
+  "vibe": "y2k",
+  "items": ["cropped tee","mini skirt","halter top","jeans","baggy jeans","babydoll tee", "button-up"],
+  "cuts": ["cropped","form-fitting","tube", "oversized", "draped", "ripped", "ribbed"],
+  "materials": ["denim","cotton","metallic"],
+  "colors": ["baby pink","baby blue","silver","hot pink", "black", "green"],
+  "details": ["zipper","lace"],
+  "price_band": "budget",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["camel","beige"]
+}
+
+{
+  "vibe": "techwear",
+  "items": ["cargo pants","puffer jacket","hoodie","t-shirt","jacket","jersey"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["nylon","cotton","mesh"],
+  "colors": ["black","grey","navy","green"],
+  "details": ["zipper","buckle"],
+  "price_band": "mid",
+  "occasion": "streetwear",
+  "season": "winter",
+  "negatives": ["baby pink","sequin"]
+}
+
+{
+  "vibe": "fairycore",
+  "items": ["babydoll top","mini skirt","halter top","corsets"],
+  "cuts": ["babydoll","cropped","backless"],
+  "materials": ["lace","cotton","mesh"],
+  "colors": ["baby pink","cream","baby blue","ivory"],
+  "details": ["lace"],
+  "price_band": "budget",
+  "occasion": "picnic",
+  "season": "spring",
+  "negatives": ["black","burgundy"]
+}
+
+{
+  "vibe": "mermaidcore",
+  "items": ["halter top","mini skirt","corsets","cropped tee"],
+  "cuts": ["cropped","backless","strapless"],
+  "materials": ["metallic","sequin","lace"],
+  "colors": ["blue","green","silver","baby blue"],
+  "details": ["lace","zipper"],
+  "price_band": "mid",
+  "occasion": "beach wear",
+  "season": "summer",
+  "negatives": ["camel","burgundy"]
+}
+
+{
+  "vibe": "angelcore",
+  "items": ["babydoll top","mini skirt","corsets","cropped tee"],
+  "cuts": ["babydoll","cropped","form-fitting"],
+  "materials": ["lace","cotton","mesh"],
+  "colors": ["white","cream","ivory","baby pink"],
+  "details": ["lace"],
+  "price_band": "budget",
+  "occasion": "date",
+  "season": "spring",
+  "negatives": ["black","navy"]
+}
+
+{
+  "vibe": "weird girl",
+  "items": ["sweater","cargo pants","cropped tee","mini skirt", "button-up"],
+  "cuts": ["cropped","ribbed","pleated"],
+  "materials": ["cotton","wool","denim"],
+  "colors": ["green","navy","cream","baby blue"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "fall",
+  "negatives": ["gold","camel"]
+}
+
+{
+  "vibe": "downtown girl",
+  "items": ["baggy jeans","cropped tee","hoodie","halter top"],
+  "cuts": ["cropped","oversized", "fitted","draped"],
+  "materials": ["denim","cotton","nylon"],
+  "colors": ["black","grey","navy","cream"],
+  "details": ["distressed","zipper"],
+  "price_band": "budget",
+  "occasion": "streetwear",
+  "season": "fall",
+  "negatives": ["baby pink","camel"]
+}
+
+{
+  "vibe": "balletcore",
+  "items": ["babydoll top","mini skirt","ballet flats","sweater"],
+  "cuts": ["babydoll","cropped","ribbed"],
+  "materials": ["cotton","lace","wool"],
+  "colors": ["baby pink","cream","white","baby blue"],
+  "details": ["lace"],
+  "price_band": "mid",
+  "occasion": "date",
+  "season": "spring",
+  "negatives": ["black","camel"]
+}
+
+{
+  "vibe": "clowncore",
+  "items": ["halter top","mini skirt","cropped tee","corsets", "button-up", "vest", "sweater"],
+  "cuts": ["cropped","pleated","form-fitting", "oversized"],
+  "materials": ["cotton","sequin","metallic"],
+  "colors": ["red","yellow","blue","green"],
+  "details": ["lace","zipper"],
+  "price_band": "budget",
+  "occasion": "party",
+  "season": "summer",
+  "negatives": ["cream","camel"]
+}
+
+{
+  "vibe": "mob wife",
+  "items": ["corsets","mini skirt","trench coat","coat", "button-up", "vest"],
+  "cuts": ["form-fitting","backless","oversized"],
+  "materials": ["leather","lace","wool", "cashmere", "nylon"],
+  "colors": ["black","red","burgundy","gold"],
+  "details": ["buckle","lace"],
+  "price_band": "premium",
+  "occasion": "night out",
+  "season": "winter",
+  "negatives": ["baby pink","navy"]
+}
+
+{
+  "vibe": "rat girl summer",
+  "items": ["mini skirt","cropped tee","tank tops","sneakers"],
+  "cuts": ["cropped","fitted"],
+  "materials": ["cotton","denim","mesh"],
+  "colors": ["cream","baby blue","green","tan"],
+  "details": ["distressed"],
+  "price_band": "budget",
+  "occasion": "festival",
+  "season": "summer",
+  "negatives": ["black","burgundy"]
+}
+
+{
+  "vibe": "vanilla girl",
+  "items": ["sweater","mini skirt","button-up","jeans"],
+  "cuts": ["ribbed","fitted","draped"],
+  "materials": ["cotton","wool","lace"],
+  "colors": ["cream","ivory","beige","white"],
+  "details": [],
+  "price_band": "mid",
+  "occasion": "brunch",
+  "season": "spring",
+  "negatives": ["black","burgundy"]
+}
+
+{
+  "vibe": "npc fit",
+  "items": ["t-shirt","hoodie","baggy jeans","button-up", "jeans","cargo pants"],
+  "cuts": ["oversized","fitted"],
+  "materials": ["cotton","denim"],
+  "colors": ["grey","black","white","blue"],
+  "details": [],
+  "price_band": "budget",
+  "occasion": "everyday",
+  "season": "spring",
+  "negatives": ["sequin","gold"]
+}
+
+{
+  "vibe": "metaverse",
+  "items": ["puffer jacket","halter top","cargo pants","jacket","coat","button-up","cargo pants"],
+  "cuts": ["cropped","fitted","oversized"],
+  "materials": ["nylon","mesh","metallic"],
+  "colors": ["silver","black","purple","green"],
+  "details": ["zipper","grommet"],
+  "price_band": "mid",
+  "occasion": "party",
+  "season": "winter",
+  "negatives": ["cream","camel"]
+}
+

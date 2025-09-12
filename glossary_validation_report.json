@@ -1,0 +1,1267 @@
+{
+  "violations": [
+    {
+      "row": 1,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 1,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 1,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 2,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 2,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 2,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 3,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 3,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 3,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 4,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 4,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 4,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 5,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 5,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 5,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 6,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 6,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 6,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 7,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 7,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 7,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 8,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 8,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 8,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 9,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 9,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 9,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 10,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 10,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 10,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 11,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 11,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 11,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 12,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 12,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 12,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 13,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 13,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 13,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 14,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 14,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 14,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 15,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 15,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 15,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 16,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 16,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 16,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 17,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 17,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 17,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 18,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 18,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 18,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 19,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 19,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 19,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 20,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 20,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 20,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 21,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 21,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 21,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 22,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 22,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 22,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 23,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 23,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 23,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 24,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 24,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 24,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 25,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 25,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 25,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 26,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 26,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 26,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 27,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 27,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 27,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 28,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 28,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 28,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 29,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 29,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 29,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 30,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 30,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 30,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 31,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 31,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 31,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 32,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 32,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 32,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 33,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 33,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 33,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 34,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 34,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 34,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 35,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 35,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 35,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 36,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 36,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 36,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 37,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 37,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 37,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 38,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 38,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 38,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 39,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 39,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 39,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 40,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 40,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 40,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 41,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 41,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 41,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 42,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 42,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 42,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 43,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 43,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 43,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 44,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 44,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 44,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 45,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 45,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 45,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 46,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 46,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 46,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 47,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 47,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 47,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 48,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 48,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 48,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 49,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 49,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 49,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 50,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 50,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 50,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 51,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 51,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 51,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 52,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 52,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 52,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 53,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 53,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 53,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 54,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 54,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 54,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 55,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 55,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 55,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 56,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 56,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 56,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 57,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 57,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 57,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 58,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 58,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 58,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 59,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 59,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 59,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 60,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 60,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 60,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 61,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 61,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 61,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 62,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 62,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 62,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 63,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 63,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 63,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 64,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 64,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 64,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 65,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 65,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 65,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 66,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 66,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 66,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 67,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 67,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 67,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 68,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 68,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 68,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 69,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 69,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 69,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    },
+    {
+      "row": 70,
+      "type": "enum_violation",
+      "field": "price_band",
+      "value": ""
+    },
+    {
+      "row": 70,
+      "type": "enum_violation",
+      "field": "occasion",
+      "value": ""
+    },
+    {
+      "row": 70,
+      "type": "enum_violation",
+      "field": "season",
+      "value": ""
+    }
+  ],
+  "counts": {
+    "enum_violation": 210
+  }
+}
