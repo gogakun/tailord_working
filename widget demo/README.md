@@ -4,12 +4,12 @@ An embeddable fashion guide widget with Apple-style glassmorphism, built with Sv
 
 ## Features
 
-- 🎨 **Apple-style Glassmorphism** - Beautiful translucent design with backdrop blur
-- 📱 **Responsive Sizing** - Three size states (XS/M/L) with smooth transitions
-- ♿ **Accessibility First** - ARIA labels, keyboard navigation, high contrast support
-- 🔄 **Session Management** - Anonymous sessions with cross-tab sync
-- 🚀 **Performance Optimized** - <80KB gzipped, lazy loading, 60fps animations
-- 🛡️ **Security Focused** - Iframe isolation, CSP-friendly, no global CSS leaks
+- **Glassmorphism** - Beautiful translucent design with backdrop blur
+- **Responsive Sizing** - Three size states (XS/M/L) with smooth transitions
+- **Accessibility First** - ARIA labels, keyboard navigation, high contrast support
+- **Session Management** - Anonymous sessions with cross-tab sync
+- **Performance Optimized** - <80KB gzipped, lazy loading, 60fps animations
+- **Security Focused** - Iframe isolation, CSP-friendly, no global CSS leaks
 
 ## Quick Start
 
