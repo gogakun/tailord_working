@@ -1,6 +1,6 @@
 ## Rogue Garms Guide Widget — Current Documentation
 
-This folder contains a self-contained demo and the embed script for the RGGuide widget. The working embed is `embed-working.js`. The widget UI and behavior must remain unchanged; this README reflects the current, working state.
+This folder contains a self-contained demo and the embed script for the RGGuide widget. The working embed is `embed-working.js`. README reflects the current working state.
 
 ### Files kept
 - `embed-working.js`: The embed script to include on a page.
