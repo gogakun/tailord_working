@@ -85,8 +85,6 @@ curl "http://localhost:3000/api/fashion-search?q=vintage+90s+baggy+jeans&site=de
 - Logs are printed in the server console (`console.log` statements inside the route file).
 - To mock Shopify responses, configure `SHOPIFY_DOMAIN` and `SHOPIFY_STOREFRONT_TOKEN` in `.env.local`.
 
-### Change Log
-- 2025-09-26: Documented API contract and local LLM integration strategy.
 
 
 
