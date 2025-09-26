@@ -79,8 +79,5 @@
 - Use the `setSize` debug logs (enabled in current code) to observe viewport calculations.
 - If the widget “jumps” off-screen, check outputs from `ensureWidgetInViewport` and drag handlers.
 
-### Change Log
-- 2025-09-26: Authored guide summarizing architecture, integration, and extension points.
-
 
 
