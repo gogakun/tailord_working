@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rogue Garms Guide Widget</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: transparent;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    #widget-container {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+    /* Prevent iframe from being selectable */
+    * {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Allow text input selection */
+    input, textarea {
+      -webkit-user-select: text;
+      -moz-user-select: text;
+      -ms-user-select: text;
+      user-select: text;
+    }
+  </style>
+</head>
+<body>
+  <div id="widget-container"></div>
+  
+  <script type="module">
+    import Widget from './src/main.ts';
+    
+    let widget = null;
+    let config = null;
+
+    // Handle messages from parent window
+    window.addEventListener('message', function(event) {
+      const { type, config: newConfig, query, sessionId } = event.data;
+
+      switch (type) {
+        case 'init':
+          if (newConfig) {
+            config = newConfig;
+            initializeWidget();
+          }
+          break;
+
+        case 'parent_open':
+          if (widget) {
+            widget.open();
+          }
+          break;
+
+        case 'parent_close':
+          if (widget) {
+            widget.close();
+          }
+          break;
+
+        case 'parent_set_query':
+          if (widget && query) {
+            widget.setQuery(query);
+          }
+          break;
+
+        case 'parent_resume':
+          if (widget && sessionId) {
+            widget.resume(sessionId);
+          }
+          break;
+      }
+    });
+
+    function initializeWidget() {
+      if (!config) return;
+
+      // Create widget container
+      const container = document.getElementById('widget-container');
+      
+      // Initialize Svelte widget
+      widget = new Widget({
+        target: container,
+        props: {
+          config: config,
+          events: {
+            onReady: () => {
+              notifyParent('widget_ready');
+            },
+            onError: (error) => {
+              notifyParent('widget_error', { error });
+            },
+            onStateChange: (state) => {
+              notifyParent('widget_state_change', { state });
+            },
+            onAction: (action, payload) => {
+              notifyParent('widget_action', { 
+                type: action, 
+                payload 
+              });
+            }
+          }
+        }
+      });
+    }
+
+    function notifyParent(type, data = {}) {
+      if (window.parent) {
+        window.parent.postMessage({
+          type: type,
+          data: data
+        }, '*');
+      }
+    }
+
+    // Handle iframe resize
+    function handleResize() {
+      if (widget) {
+        // Notify parent of size changes
+        const rect = document.body.getBoundingClientRect();
+        notifyParent('widget_resize', {
+          width: rect.width,
+          height: rect.height
+        });
+      }
+    }
+
+    // Resize observer for dynamic sizing
+    if (window.ResizeObserver) {
+      const resizeObserver = new ResizeObserver(handleResize);
+      resizeObserver.observe(document.body);
+    }
+
+    // Initial setup
+    document.addEventListener('DOMContentLoaded', function() {
+      // Widget will be initialized when parent sends config
+    });
+  </script>
+</body>
+</html>
