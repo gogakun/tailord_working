@@ -18,14 +18,13 @@ tqdm, json, etc.
 
 Milvus provides a standalone container setup. From the repo root:
 
-docker compose -f standalone-docker-compose.yml up -d
-
+wget https://github.com/milvus-io/milvus/releases/download/v2.6.0/milvus-standalone-docker-compose.yml -O docker-compose.yml
+docker compose up -d     
 
 Check the container is running:
-
 docker ps
 
-
+docker compose down
 Milvus listens on 127.0.0.1:19530 by default.
 
 📂 2. Transform Products JSON

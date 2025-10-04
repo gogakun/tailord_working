@@ -7,6 +7,8 @@ from pymilvus import (
     Collection, utility
 )
 from typing import List, Dict
+
+
 COLLECTION_NAME = "products_rogue_v1"
 import numpy as np
 
@@ -55,12 +57,16 @@ def transform_product(p: dict) -> dict:
 
 
     # helpful, consistent synthesis of the record into a searchable paragraph
+    min_price = min([float(v.get("price")) for v in variants if v.get("price")], default=None)
+    max_price = max([float(v.get("price")) for v in variants if v.get("price")], default=None)
     search_text = " | ".join(filter(None, [
         p.get("title", "").strip(),
         p.get("product_type", "").strip(),
         f"Tags: {', '.join(tags)}" if tags else "",
         f"Features: {', '.join(features)}" if features else "",
         f"Sizes in stock: {', '.join(sizes_in_stock)}" if sizes_in_stock else "Sold out",
+        f"price_min: {min_price}",
+        f"price_max: {max_price}",
         body_text,
     ]))
 
@@ -80,8 +86,6 @@ def transform_product(p: dict) -> dict:
     }
     print(search_text)
     return out
-
-
 
 
 MODEL_NAME = "all-MiniLM-L6-v2"
@@ -130,9 +134,6 @@ def ingest(raw_products: List[Dict]):
     col.flush()
 
 
-
-
-
 def as_float32_list(vec):
     import numpy as np
     # Handle torch tensors
@@ -150,10 +151,11 @@ def as_float32_list(vec):
         arr = np.nan_to_num(arr, nan=0.0, posinf=1e6, neginf=-1e6)
     return arr.tolist()
 
-def search(query: str, topk=5, only_in_stock=True):
-    connections.connect(alias="default", host="127.0.0.1", port="19530")
+def search_catalog(query: str, topk=5, only_in_stock=True):
+    if not connections.has_connection("default"):
+        connections.connect(alias="default", host="127.0.0.1", port="19530")
     col = Collection(COLLECTION_NAME)
-
+    col.load()
     emb = embed(query)
     qvec = as_float32_list(emb)
     # Optional filter on JSON field
@@ -184,7 +186,13 @@ def search(query: str, topk=5, only_in_stock=True):
             "handle": meta["handle"]
         })
     return out
+'''
+if __name__ == "__main__":
+    with open("products.json", "r", encoding="utf-8") as f:
+        products = json.load(f)
+    ingest(products)
 
+'''
 def get_vibe_info(query):
       
         data = []
@@ -202,17 +210,10 @@ def get_vibe_info(query):
                 vibe = d["vibe"]
                 vibe_items = d["items"]
                 vibe_description = d["definition"]
-            
+
         for item in vibe_items:
             search_text = f"{item} that fits the {vibe} vibe ({vibe_description})"
             search_queries.append(search_text)
         return search_queries
         
-if __name__ == "__main__":
-    
-    query = "balkan rage"
-    item_vibes = get_vibe_info(query)
-    print(item_vibes)
-    for search_query in item_vibes:
-        print("________________________________________________")
-        print(search(search_query, topk=5, only_in_stock=False))
+

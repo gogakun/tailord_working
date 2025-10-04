@@ -1,0 +1,4 @@
+.env
+volumes
+tailord
+__pycache__
