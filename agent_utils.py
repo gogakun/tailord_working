@@ -12,30 +12,35 @@ load_dotenv()
 api_key = os.getenv('OPENAI_KEY')
 client = openai.OpenAI(api_key=api_key)
 
-def json_to_str(query: dict):
-    # Turn JSON into a search string
-    texts = []
-    if "item" in query:
-        texts.extend(query["item"])
-    if "materials" in query:
-        texts.extend(query["materials"])
-    if "cuts" in query:
-        texts.extend(query["cuts"])
-    if "colors" in query:
-        texts.extend(query["colors"])
-    if "details" in query:
-        texts.extend(query["details"])
-    if "occasion" in query:
-        texts.append(query["occasion"])
-    if "season" in query:
-        texts.append(query["season"])
-    if "price" in query:
-        texts.append(str(query["price"]))
-    if "vibe_definition" in query:
-        texts.append(query["vibe_definition"])
+def json_to_str(query: Dict[str, Any]) -> str:
+    parts: list[str] = []
 
-    search_str = " ".join(texts)
-    return search_str
+    def add_labeled(key: str, label: str):
+        val = query.get(key)
+        if val is None or val == "":
+            return
+        if isinstance(val, (list, tuple, set)):
+            text = ", ".join(map(str, val))
+        else:
+            text = str(val)
+        parts.append(f"{label}: {text}")
+
+    # Labeled fields (handle list or scalar)
+    add_labeled("item", "Item")
+    add_labeled("materials", "Materials")
+    add_labeled("cuts", "Cuts")
+    add_labeled("colors", "Colors")
+    add_labeled("details", "Details")
+
+    # Unlabeled/simple fields
+    for key in ("occasion", "season", "price"):
+        if key in query and query[key] is not None:
+            parts.append(str(query[key]))
+
+    if query.get("vibe_definition"):
+        parts.append(f"Vibe: {query['vibe_definition']}")
+
+    return " ".join(parts)
 
 def llm_expand_query(user_query: str, vibe_info: str) -> dict:
     """
